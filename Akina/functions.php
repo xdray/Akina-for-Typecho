@@ -6,16 +6,16 @@ function themeConfig($form) {
 	$headerinfo = new Typecho_Widget_Helper_Form_Element_Text('headerinfo', NULL,'Carpe Diem and Do what I like', _t('头部内容'), _t('首页头部介绍'));
     $form->addInput($headerinfo);
 	
-    $NOTICE = new Typecho_Widget_Helper_Form_Element_Text('NOTICE', NULL,'我很荣幸的启用了Akina主题', _t('公告内容'), _t('首页公告内容'));
+    $NOTICE = new Typecho_Widget_Helper_Form_Element_Text('NOTICE', NULL, '博客新人，希望大家支持', _t('公告内容'), _t('首页公告内容'));
     $form->addInput($NOTICE);
 	
 	$headimg = new Typecho_Widget_Helper_Form_Element_Text('headimg', NULL,'/usr/themes/Akina/images/headerbg.jpg', _t('首页头部图'), _t('默认图/usr/themes/Akina/images/headerbg.jpg'));
     $form->addInput($headimg);
 	
-	$QQ = new Typecho_Widget_Helper_Form_Element_Text('QQ', NULL,'945203919', _t('QQ号码'), _t('自动获取空间地址，并作为全局博主头像'));
+	$QQ = new Typecho_Widget_Helper_Form_Element_Text('QQ', NULL,'516327203', _t('QQ号码'), _t('自动获取空间地址，并作为全局博主头像'));
     $form->addInput($QQ);
 	
-	$Github = new Typecho_Widget_Helper_Form_Element_Text('Github', NULL,'https://github.com/Zisbusy', _t('Github地址'), _t('Github主页地址（请规范填写，需https://，http://或者//）'));
+	$Github = new Typecho_Widget_Helper_Form_Element_Text('Github', NULL,'https://github.com/xdray', _t('Github地址'), _t('Github主页地址（请规范填写，需https://，http://或者//）'));
     $form->addInput($Github);
 	
 	$SINA = new Typecho_Widget_Helper_Form_Element_Text('SINA', NULL,'https://weibo.com/', _t('新浪微博地址'), _t('默认新浪微博首页（请规范填写，需https://，http://或者//）'));
